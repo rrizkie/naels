@@ -19,9 +19,7 @@ function App() {
           <div className="menus">
             <div
               className="item"
-              onClick={() =>
-                window.open("https://wa.me/087703032019?text=", "_blank")
-              }
+              onClick={() => window.open("https://wa.me/87703032019?text=")}
             >
               Book Appointment
             </div>
@@ -43,13 +41,13 @@ function App() {
 
           <div className="social">
             <FaTiktok
-              size={50}
+              size={30}
               onClick={() =>
                 window.open("https://www.tiktok.com/@naelsmates", "_blank")
               }
             />
             <SiGmail
-              size={50}
+              size={30}
               onClick={() => window.open("mailto:naelsmates@gmail.com")}
             />
           </div>
