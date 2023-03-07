@@ -20,7 +20,7 @@ function App() {
             <div
               className="item"
               onClick={() =>
-                window.open("https://wa.me/087703032019", "_blank")
+                window.open("https://wa.me/087703032019?text=", "_blank")
               }
             >
               Book Appointment
