@@ -19,7 +19,7 @@ function App() {
           <div className="menus">
             <div
               className="item"
-              onClick={() => window.open("https://wa.me/87703032019?text=")}
+              onClick={() => window.open("https://wa.me/6287703032019?text=")}
             >
               Book Appointment
             </div>
