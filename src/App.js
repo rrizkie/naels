@@ -1,6 +1,7 @@
 import "./App.css";
 import { FaTiktok } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import { BsInstagram } from "react-icons/bs";
 import priceList from "../src/assets/naels-price.jpeg";
 import { useState } from "react";
 
@@ -41,20 +42,30 @@ function App() {
 
           <div className="social">
             <FaTiktok
+              color="white"
               size={30}
               onClick={() =>
                 window.open("https://www.tiktok.com/@naelsmates", "_blank")
               }
             />
             <SiGmail
+              color="white"
               size={30}
               onClick={() => window.open("mailto:naelsmates@gmail.com")}
+            />
+
+            <BsInstagram
+              color="white"
+              size={30}
+              onClick={() =>
+                window.open("https://www.instagram.com/naelsmates__/")
+              }
             />
           </div>
         </div>
 
         <div className="footer">
-          <text>life is to short, to wear a boring nails</text>
+          <text>life is too short for boring nails</text>
         </div>
       </div>
 

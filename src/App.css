@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
+@font-face {
+  font-family: "tan-pearl";
+  src: url("./assets/font/TAN-PEARL.woff") format("woff");
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 .App {
-  /* height: 100vh; */
+  height: 100vh;
   width: 100vw;
   background-color: #fd841f;
   background-image: linear-gradient(
@@ -31,7 +36,9 @@
   justify-content: center;
   align-items: center;
   padding-top: 30%;
-  font-family: "Abril Fatface", cursive;
+  font-family: "tan-pearl";
+  flex-direction: column;
+  color: white;
 }
 
 .logo {
@@ -78,5 +85,6 @@
 .footer {
   text-align: center;
   padding-bottom: 5%;
-  font-family: "Abril Fatface", cursive;
+  font-family: "tan-pearl";
+  color: white;
 }
