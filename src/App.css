@@ -12,16 +12,7 @@
 .App {
   height: 100vh;
   width: 100vw;
-  background-color: #fd841f;
-  background-image: linear-gradient(
-    43deg,
-    #fd841f 0%,
-    #c850c0 46%,
-    #ffcc70 100%
-  );
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  background-color: #ffff;
 }
 
 .container {
@@ -38,7 +29,7 @@
   padding-top: 30%;
   font-family: "tan-pearl";
   flex-direction: column;
-  color: white;
+  color: black;
 }
 
 .logo {
@@ -51,15 +42,36 @@
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  margin-top: 40%;
+  margin-top: 25%;
 }
 
 .menus .item {
-  background-color: #ffff;
+  background-color: black;
+  color: #ffff;
   padding: 20px;
   border-radius: 10px;
   min-width: 80%;
   text-align: center;
+}
+
+.menus .optionsWrapper {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.menus .optionsWrapper .options {
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 12px 0;
 }
 
 .social {
@@ -86,5 +98,5 @@
   text-align: center;
   padding-bottom: 5%;
   font-family: "tan-pearl";
-  color: white;
+  color: black;
 }
