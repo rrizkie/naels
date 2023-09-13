@@ -1,8 +1,9 @@
 import "./App.css";
 import { FaTiktok } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
-import { BsInstagram } from "react-icons/bs";
-import priceList from "../src/assets/naels-price.jpeg";
+// import { SiGmail } from "react-icons/si";
+// import { BsInstagram } from "react-icons/bs";
+import priceList from "../src/assets/naels-price.png";
+import priceList2 from "../src/assets/naels-price-2.png";
 import logo from "../src/assets/naels-logo.png";
 import { useState } from "react";
 import va from "@vercel/analytics";
@@ -20,7 +21,7 @@ function App() {
           <div className="wrapper">
             {/* <div className="logo">naels</div> */}
             <img src={logo} alt="naels-mates" width={"70%"} />
-            <div>your nails soulmate</div>
+            <div style={{ marginTop: "10px" }}>your nails soulmate</div>
           </div>
 
           <div className="menus">
@@ -130,6 +131,7 @@ function App() {
       {isOpen && (
         <div className="modal" onClick={() => setIsOpen(false)}>
           <img src={priceList} alt="price-list" width={"80%"} />
+          <img src={priceList2} alt="price-list-2" width={"80%"} />
         </div>
       )}
     </div>
