@@ -130,8 +130,8 @@ function App() {
 
       {isOpen && (
         <div className="modal" onClick={() => setIsOpen(false)}>
-          <img src={priceList} alt="price-list" width={"80%"} />
-          <img src={priceList2} alt="price-list-2" width={"80%"} />
+          <img src={priceList} alt="price-list" width={"100%"} />
+          <img src={priceList2} alt="price-list-2" width={"100%"} />
         </div>
       )}
     </div>
