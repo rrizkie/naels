@@ -37,7 +37,8 @@ function App() {
                   className="options"
                   onClick={() => {
                     va.track("Book Appointment", { branch: "Tebet" });
-                    window.open("https://wa.me/6287703032019?text=");
+                    // window.open("https://wa.me/6287703032019?text=");
+                    window.open("https://wa.me/6281809871183?text=");
                   }}
                 >
                   Tebet
