@@ -27,7 +27,8 @@ function App() {
     },
     {
       name: "Pasar Santa",
-      phone: "6287795116456",
+      // phone: "6287795116456",
+      phone: "6287777282979",
       loc: "https://maps.app.goo.gl/io7izM4dZWSWKnfm8",
     },
   ];
