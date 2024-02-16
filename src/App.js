@@ -31,6 +31,11 @@ function App() {
       phone: "6287777282979",
       loc: "https://maps.app.goo.gl/io7izM4dZWSWKnfm8",
     },
+    {
+      name: "Benhil",
+      phone: "6285720810092",
+      loc: "https://maps.app.goo.gl/NWEcNaqHqFFfFv3w7?g_st=ic",
+    },
   ];
 
   return (
