@@ -36,6 +36,11 @@ function App() {
       phone: "6285720810092",
       loc: "https://maps.app.goo.gl/NWEcNaqHqFFfFv3w7?g_st=ic",
     },
+    {
+      name: "Depok",
+      phone: "6287826002042",
+      loc: "https://maps.app.goo.gl/QMxF3d2MEBzrzTGt8?g_st=ic",
+    },
   ];
 
   return (
