@@ -41,6 +41,11 @@ function App() {
       phone: "6287826002042",
       loc: "https://maps.app.goo.gl/QMxF3d2MEBzrzTGt8?g_st=ic",
     },
+    {
+      name: "Bekasi",
+      phone: "6281917639594",
+      loc: "https://maps.app.goo.gl/jH6AvieSjj2zxLHS9?g_st=iw",
+    },
   ];
 
   return (
