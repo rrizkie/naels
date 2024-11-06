@@ -17,8 +17,8 @@ function App() {
   const branch = [
     {
       name: "Tebet",
-      // phone: "6285183673980",
-      phone: "6281809871183",
+      phone: "6285183673980",
+      // phone: "6281809871183",
       loc: "https://www.google.com/maps/place/Jl.+Pal+Batu+1+No.39,+RT.4%2FRW.4,+Menteng+Dalam,+Kec.+Tebet,+Kota+Jakarta+Selatan,+Daerah+Khusus+Ibukota+Jakarta+12870/@-6.227765,106.8443363,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f3921748e01d:0x54c60c14d125da02!8m2!3d-6.227765!4d106.846525!16s%2Fg%2F11csgfb3y_",
     },
     {
