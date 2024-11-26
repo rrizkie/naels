@@ -75,7 +75,7 @@ function App() {
                     onClick={() => {
                       va.track("Book Appointment", { branch: el.name });
                       // window.open("https://wa.me/6287703032019?text=");
-                      window.open(`https://wa.me/${el.phone}?text=`);
+                      window.open(`https://api.whatsapp.com/send/?phone=${el.phone}`);
                     }}
                   >
                     {el.name}
