@@ -47,6 +47,11 @@ function App() {
       phone: "6281917639594",
       loc: "https://maps.app.goo.gl/jH6AvieSjj2zxLHS9?g_st=iw",
     },
+    {
+      name: "Cibubur",
+      phone: "628179075816",
+      loc: "https://g.co/kgs/bcfxDr5",
+    },
   ];
 
   return (
