@@ -39,8 +39,8 @@ function App() {
     },
     {
       name: "Depok",
-      // phone: "6285121102956",
-      phone: "6287826002042",
+      phone: "6285121102956",
+      // phone: "6287826002042",
       loc: "https://maps.app.goo.gl/QMxF3d2MEBzrzTGt8?g_st=ic",
     },
     {
@@ -50,8 +50,14 @@ function App() {
     },
     {
       name: "Cibubur",
-      phone: "628179075816",
+      // phone: "628179075816",
+      phone: "6285121115816",
       loc: "https://g.co/kgs/bcfxDr5",
+    },
+    {
+      name: "Bintaro",
+      phone: "6281809871183",
+      loc: "https://maps.app.goo.gl/FMhYHsbAuNrXevL9A",
     },
   ];
 
@@ -81,7 +87,9 @@ function App() {
                     onClick={() => {
                       va.track("Book Appointment", { branch: el.name });
                       // window.open("https://wa.me/6287703032019?text=");
-                      window.open(`https://api.whatsapp.com/send/?phone=${el.phone}`);
+                      window.open(
+                        `https://api.whatsapp.com/send/?phone=${el.phone}`
+                      );
                     }}
                   >
                     {el.name}
