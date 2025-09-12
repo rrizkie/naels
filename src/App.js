@@ -61,6 +61,11 @@ function App() {
       phone: "6281809871183",
       loc: "https://maps.app.goo.gl/FMhYHsbAuNrXevL9A",
     },
+    {
+      name: "Bandung",
+      phone: "62895328268296",
+      loc: "https://maps.app.goo.gl/By2aqkgqV35btJEfA?g_st=ipc",
+    },
   ];
 
   return (
