@@ -66,6 +66,11 @@ function App() {
       phone: "62895328268296",
       loc: "https://maps.app.goo.gl/By2aqkgqV35btJEfA?g_st=ipc",
     },
+    {
+      name: "Bogor",
+      phone: "6287877138817",
+      loc: "https://maps.app.goo.gl/4WVXsFKuZg4TYULa7?g_st=ic",
+    },
   ];
 
   return (
@@ -104,7 +109,7 @@ function App() {
                 ))}
               </div>
             )}
-            <div
+            {/* <div
               className="item"
               onClick={() => {
                 va.track("Price List");
@@ -112,7 +117,7 @@ function App() {
               }}
             >
               Price List
-            </div>
+            </div> */}
             <div
               className="item"
               onClick={() => setIsLocationOptionOpen(!isLocationOptionOpen)}
