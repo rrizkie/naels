@@ -24,8 +24,8 @@ function App() {
     },
     {
       name: "Condet",
-      phone: "6282210976868",
-      loc: "https://maps.app.goo.gl/dyd8wZDJ37EM1ZCx9?g_st=com.google.maps.preview.copy",
+      phone: "6285121579595",
+      loc: "https://maps.app.goo.gl/F2irYgdPZauDN1ZY9",
     },
     {
       name: "Pasar Santa",
