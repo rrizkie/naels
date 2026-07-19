@@ -71,6 +71,11 @@ function App() {
       phone: "6287877138817",
       loc: "https://maps.app.goo.gl/4WVXsFKuZg4TYULa7?g_st=ic",
     },
+    {
+      name: "Kelapa Gading",
+      phone: "6285111240358",
+      loc: "https://maps.app.goo.gl/pihC2eUdvH5jyXsVA",
+    },
   ];
 
   return (
