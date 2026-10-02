@@ -76,6 +76,11 @@ function App() {
       phone: "6285111240358",
       loc: "https://maps.app.goo.gl/pihC2eUdvH5jyXsVA",
     },
+    {
+      name: "Meruya",
+      phone: "62895328268296",
+      loc: "https://share.google/kY4Xl7L2BBkI9QoXq",
+    },
   ];
 
   return (
